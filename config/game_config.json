@@ -1,0 +1,142 @@
+{
+  "levels": [
+    {
+      "level": 1,
+      "points_target": 200,
+      "spawn_interval_sec": 6,
+      "patience_sec": 20,
+      "reward_money": 10,
+      "reward_points": 5,
+      "reward_fame": 1,
+      "ingredients": [
+        "I1",
+        "I2",
+        "I3"
+      ],
+      "max_queue": 1
+    },
+    {
+      "level": 2,
+      "points_target": 200,
+      "spawn_interval_sec": 5,
+      "patience_sec": 18,
+      "reward_money": 12,
+      "reward_points": 6,
+      "reward_fame": 1,
+      "ingredients": [
+        "I1",
+        "I2",
+        "I3",
+        "I4"
+      ],
+      "max_queue": 3
+    }
+  ],
+  "recipes_by_level": {
+    "1": {
+      "PlatoA": [
+        "I1",
+        "I2"
+      ],
+      "PlatoB": [
+        "I1",
+        "I3"
+      ],
+      "PlatoC": [
+        "I2",
+        "I3"
+      ]
+    },
+    "2": {
+      "PlatoA": [
+        "I1",
+        "I2"
+      ],
+      "PlatoB": [
+        "I1",
+        "I3"
+      ],
+      "PlatoC": [
+        "I2",
+        "I3"
+      ],
+      "PlatoD": [
+        "I1",
+        "I4"
+      ],
+      "PlatoE": [
+        "I2",
+        "I4"
+      ],
+      "PlatoF": [
+        "I3",
+        "I4"
+      ],
+      "PlatoG": [
+        "I1",
+        "I2",
+        "I3"
+      ],
+      "PlatoH": [
+        "I1",
+        "I2",
+        "I4"
+      ],
+      "PlatoI": [
+        "I2",
+        "I3",
+        "I4"
+      ],
+      "PlatoJ": [
+        "I1",
+        "I3",
+        "I4"
+      ]
+    }
+  },
+  "economy": {
+    "leave_fame_penalty": 1
+  },
+  "upgrades": [
+    {
+      "id": "faster_customers",
+      "name": "Más clientes",
+      "base_cost": 120,
+      "cost_mult": 1.35,
+      "max_level": 3,
+      "desc": "Reduce el intervalo de aparición de clientes. (x0.90 por nivel)"
+    },
+    {
+      "id": "better_tips",
+      "name": "Mejores propinas",
+      "base_cost": 160,
+      "cost_mult": 1.4,
+      "max_level": 3,
+      "desc": "Aumenta recompensa de dinero por venta. (+5 por nivel)"
+    },
+    {
+      "id": "bigger_bag",
+      "name": "Bolsa más grande",
+      "base_cost": 200,
+      "cost_mult": 1.5,
+      "max_level": 2,
+      "desc": "Aumenta capacidad del inventario. (+1 por nivel)"
+    },
+    {
+      "id": "patience_boost",
+      "name": "Clientes más pacientes",
+      "base_cost": 140,
+      "cost_mult": 1.4,
+      "max_level": 3,
+      "desc": "Aumenta la paciencia de los clientes. (+10% por nivel)"
+    },
+    {
+      "id": "fame_boost",
+      "name": "Marketing",
+      "base_cost": 180,
+      "cost_mult": 1.45,
+      "max_level": 3,
+      "desc": "Aumenta la fama ganada por venta. (+1 por nivel)"
+    }
+  ]
+}

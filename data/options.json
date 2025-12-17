@@ -1,0 +1,10 @@
+{
+  "language": "es",
+  "difficulty": "normal",
+  "music_enabled": true,
+  "music_volume": 0.6,
+  "brightness": 1.0,
+  "accent": "yellow",
+  "menu_music": "menu_0.wav",
+  "game_music": "game_0.wav"
+}
